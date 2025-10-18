@@ -9,8 +9,9 @@ import {
   update,
   get,
 } from "firebase/database";
-import "./App.css";
+import { getAuth, signInAnonymously, onAuthStateChanged } from "firebase/auth";
 
+import "./App.css";
 // 🧩 Replace with your Firebase config here:
 const firebaseConfig = {
   apiKey: "AIzaSyC5C4mlRfpd2cM0gMqTcq_ERrVdYnTPA7I",
