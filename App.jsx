@@ -16,7 +16,7 @@ import "./App.css";
 const firebaseConfig = {
   apiKey: "AIzaSyC5C4mlRfpd2cM0gMqTcq_ERrVdYnTPA7I",
   authDomain: "battleships-cc040.firebaseapp.com",
-  databaseURL: "https://battleships-cc040-default-rtdb.firebaseio.com",
+  databaseURL: "https://battleships-cc040-default-rtdb.firebaseio.com/",
   projectId: "battleships-cc040",
   storageBucket: "battleships-cc040.firebasestorage.app",
   messagingSenderId: "511743617639",
