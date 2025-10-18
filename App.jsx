@@ -20,7 +20,7 @@ const firebaseConfig = {
   projectId: "battleships-cc040",
   storageBucket: "battleships-cc040.firebasestorage.app",
   messagingSenderId: "511743617639",
-  appId: "1:511743617639:web:f4408354809cadd69242c2"
+  appId: "1:511743617639:web:f4408354809cadd69242c2",
 };
 
 // Initialize Firebase
