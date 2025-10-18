@@ -10,8 +10,8 @@ import {
   get,
 } from "firebase/database";
 import { getAuth, signInAnonymously, onAuthStateChanged } from "firebase/auth";
-
 import "./App.css";
+
 // 🧩 Replace with your Firebase config here:
 const firebaseConfig = {
   apiKey: "AIzaSyC5C4mlRfpd2cM0gMqTcq_ERrVdYnTPA7I",
@@ -26,6 +26,11 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(FIREBASE_CONFIG);
 const db = getDatabase(app);
+
+// Initialize Firebase Auth
+const auth = getAuth(app);
+signInAnonymously(auth).catch(console.error);
+
 
 const makeEmptyBoard = () => Array(10).fill(null).map(() => Array(10).fill(0));
 
